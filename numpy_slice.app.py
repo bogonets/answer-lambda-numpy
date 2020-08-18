@@ -52,26 +52,10 @@ def on_get(key):
         return slices_to_str(slices)
 
 
-def on_create():
-    return True
-
-
-def on_init():
-    return True
-
-
-def on_valid():
-    return True
-
-
 def on_run(array):
     return {
         "result": array[slices]
     }
-
-
-def on_destroy():
-    return True
 
 
 if __name__ == '__main__':
