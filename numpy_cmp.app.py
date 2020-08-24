@@ -5,9 +5,9 @@ import numpy as np
 METHOD_EQ = '=='
 METHOD_NE = '!='
 METHOD_GE = '>='
-METHOD_LE = '>='
+METHOD_LE = '<='
 METHOD_GT = '>'
-METHOD_LT = '>'
+METHOD_LT = '<'
 
 method = METHOD_EQ
 
