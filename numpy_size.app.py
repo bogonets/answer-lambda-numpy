@@ -5,7 +5,7 @@ import numpy as np
 
 def on_run(array):
     return {
-        "result": np.array(array.size)
+        "result": np.array([array.size])
     }
 
 
