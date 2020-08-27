@@ -4,15 +4,11 @@
 import numpy as np
 
 
-class ConditionIsFalse(Exception):
-    pass
-
-
 def on_run(condition, data):
     if np.any(condition):
         return {'result': data}
     else:
-        raise ConditionIsFalse
+        return {}
 
 
 if __name__ == '__main__':
